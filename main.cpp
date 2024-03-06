@@ -23,6 +23,6 @@ int main(int, char**){
     recursiveGetFileNamesByExtension(path, extention);
 
     for (const auto &i : list)
-        std::cout << i << "\n";
+        std::cout << i << std::endl;
 
 }
